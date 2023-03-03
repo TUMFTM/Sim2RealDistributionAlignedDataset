@@ -69,6 +69,18 @@ Real (left) and sim (right) AV21 used for dataset generation
 ## Citation
 If you find our work useful in your research, please consider citing:
 
+    @ARTICLE{Huch23DomainShift,
+  	    author={Huch, Sebastian and Scalerandi, Luca and Rivera, Esteban and Lienkamp, Markus},
+  	    journal={IEEE Transactions on Intelligent Vehicles}, 
+  	    title={Quantifying the LiDAR Sim-to-Real Domain Shift: A Detailed Investigation Using Object Detectors and Analyzing Point Clouds at Target-Level}, 
+  	    year={2023},
+  	    volume={},
+  	    number={},
+  	    pages={1-14},
+  	    doi={10.1109/TIV.2023.3251650}}
+
+
+
     @misc{Huch_S2R_DAD_2023, 
         author = {Huch, Sebastian and  Scalerandi, Luca and  Rivera, Esteban and  Lienkamp, Markus},
         title = {S2R-DAD: Sim-to-Real Distribution-Aligned Dataset},
@@ -79,17 +91,4 @@ If you find our work useful in your research, please consider citing:
         doi = {10.14459/2023mp1695833},
         keywords = {Sim-to-Real; LiDAR; Point Cloud; Domain Shift; Domain Adaptation},
         language = {en},
-    }
-
-Part of this dataset was captured during the Indy Autonomous Challenge. Please consider citing the work of TUM Autonomous Motorsport as well:  
-
-    @article{Betz_2023,
-        doi = {10.1002/rob.22153},
-        url = {https://doi.org/10.1002%2Frob.22153},
-        year = 2023,
-        month = {jan},
-        publisher = {Wiley},
-        author = {Johannes Betz and Tobias Betz and Felix Fent and Maximilian Geisslinger and Alexander Heilmeier and Leonhard Hermansdorfer and Thomas Herrmann and Sebastian Huch and Phillip Karle and Markus Lienkamp and Boris Lohmann and Felix Nobis and Levent Ögretmen and Matthias Rowold and Florian Sauerbeck and Tim Stahl and Rainer Trauth and Frederik Werner and Alexander Wischnewski},
-        title = {{TUM} autonomous motorsport: An autonomous racing software for the Indy Autonomous Challenge},
-        journal = {Journal of Field Robotics}
     }
